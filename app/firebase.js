@@ -3,10 +3,11 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { getFirestore } from "firebase/firestore";
+import config from '../public/config';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB41pYnZLVZYySUxRLV0_fiKpiuNq2JJus",
+    apiKey: config.apiKey,
     authDomain: "expense-tracker-ff453.firebaseapp.com",
     projectId: "expense-tracker-ff453",
     storageBucket: "expense-tracker-ff453.appspot.com",
